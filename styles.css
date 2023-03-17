@@ -1,0 +1,278 @@
+/* Master styles */
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Nav styles*/ 
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+.brand{
+font-size: 1.2em;
+}
+
+/* Tagline styles */
+
+.tag-line-wrapper {
+    padding: 50px;
+}
+
+.tag-line {
+    color: lightseagreen;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+.portfolio-item-wrapper {
+    position: relative; 
+}
+
+.portfolio-img-background {
+     height: 400px;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.content-wrapper{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+/* About page */
+.two-coloumn-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+    margin-right: 32px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
+
+.testemonial{
+    padding: 50px
+}
+
+/* Footer*/
+
+.footer {
+    padding:  30px;
+}
+
+.footer-wrapper {
+    text-align: center;
+    font-size: 1.2em;  
+}
+
+.footer-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-wrapper:hover {
+    border-bottom:black;
+}
+
+.footer-wrapper a:hover {
+    color: black;
+}
+
+/* froot page*/
+
+.case-study-froot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height:auto;
+    
+}
+
+.case-study-froot h1 {
+    color: lightseagreen;
+}
+
+.froot-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height: auto;
+    
+}
+
+.froot-content-wrapper h1{
+    color: lightseagreen;
+}
+
+/*Vocalba*/
+
+.case-study-vocalba{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 800px;
+    height: auto;
+}
+
+.case-study-vocalba h1 {
+    color: darkblue;
+}
+
+.vocalba-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    width: 800px;
+    height: auto;
+}
+
+.vocalba-content-wrapper h1 {
+    color: darkblue;
+}
+
+.research-vocalba {
+    padding-right: 10px;    
+}
+
+.user-interface{
+    text-align: center;
+}
+
+/*RoadSage*/
+
+.case-study-roadsage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height: auto;  
+}
+
+.case-study-roadsage h1 {
+    color: purple;
+}
+
+.roadsage-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height: auto;
+}
+
+.roadsage-content-wrapper h1 {
+    color: purple
+}
+
+.styleguide{
+    height: 100%;
+    width: 100px;
+    background-position: center;
+    padding: 0px;
+}
+
+.usability{
+    height: 100%;
+    width: 100px;
+    background-position: center;
+    padding: 100px;
+}
+
+/*Fufilment*/
+
+.case-study-fufilment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height: auto;
+}
+
+.case-study-fufilment h1 {
+    color: purple;
+}
+
+.fufilment-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    width: 800px;
+    height: auto;
+}
+
+.fufilment-content-wrapper h1 {
+    color: purple
+}
